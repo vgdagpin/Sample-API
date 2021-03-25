@@ -5,6 +5,8 @@
 
 
 ```
+--------------> see comments on the right
+
 ├───Docs                                                    # where docs, reference, links, etc
 └───Src                                                     # all codes related to the project
     ├───Core                                                # core codes (Base Project, Application Layer, Persistence Layer, Infrastructure)
