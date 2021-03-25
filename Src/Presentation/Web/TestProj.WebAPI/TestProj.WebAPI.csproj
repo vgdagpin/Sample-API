@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Core\TestProj.Application\TestProj.Application.csproj" />
+    <ProjectReference Include="..\..\..\Core\TestProj.Infrastructure\TestProj.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\..\Core\TestProj\TestProj.csproj" />
+    <ProjectReference Include="..\..\..\Migrations\TestProj.DbMigration.SQLite\TestProj.DbMigration.SQLite.csproj" />
+    <ProjectReference Include="..\..\..\Migrations\TestProj.DbMigration.SqlServer\TestProj.DbMigration.SqlServer.csproj" />
+  </ItemGroup>
+
+</Project>

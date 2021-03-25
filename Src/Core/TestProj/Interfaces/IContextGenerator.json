@@ -1,0 +1,12 @@
+﻿{
+  "Entities": {
+    "Path": "../../TestProj/Domain/Entities",
+    "Namespaces": [
+      "TestProj.Domain.Entities"
+    ]
+  },
+  "IDbContext": {
+    "Name": "ITestProjDbContext",
+    "Namespace": "TestProj.Interfaces"
+  }
+}
